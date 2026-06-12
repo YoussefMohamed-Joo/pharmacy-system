@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>نظام إدارة الصيدلية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="watermark">م. يوسف محمد<br>01033558125</div>
+
+  <header>
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-icon">P</div>
+        <span>نظام الصيدلية</span>
+      </div>
+      <nav>
+        <a href="#features">المميزات</a>
+        <a href="#download">تحميل</a>
+        <button class="theme-btn" onclick="toggleTheme()" id="themeBtn">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <div class="badge">نظام متكامل لإدارة الصيدليات</div>
+        <h1>نظام إدارة <span class="gradient-text">الصيدلية</span></h1>
+        <p>برنامج متكامل يساعدك في متابعة المخزون، إدارة المبيعات، الفواتير، العملاء، الموردين، والتقارير المالية.</p>
+        <div class="hero-btns">
+          <a href="#download" class="btn-primary">تحميل البرنامج</a>
+          <a href="#features" class="btn-secondary">المميزات</a>
+        </div>
+        <div class="hero-info">
+          <span>◉ متوفر لويندوز</span>
+          <span>◉ تحديثات مجانية</span>
+          <span>◉ دعم فني</span>
+        </div>
+      </div>
+      <div class="hero-mockup">
+        <div class="mockup-window">
+          <div class="mockup-bar">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="mockup-body">
+            <div class="mock-row"><div class="mock-avatar"></div><div><div class="mock-line w-28"></div><div class="mock-line w-20 mt-2"></div></div></div>
+            <div class="mock-grid">
+              <div></div><div></div><div></div><div></div>
+            </div>
+            <div class="mock-table">
+              <div class="mock-th"></div>
+              <div></div><div></div><div></div><div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <h2>مميزات البرنامج</h2>
+        <p>كل ما تحتاجه لإدارة صيدليتك في برنامج واحد</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card"><div class="ficon">📦</div><h3>إدارة المخزون</h3><p>متابعة الأدوية والمخزون مع تنبيهات انخفاض المخزون وانتهاء الصلاحية</p></div>
+        <div class="feature-card"><div class="ficon">🛒</div><h3>نقطة البيع (POS)</h3><p>واجهة بيع سريعة مع دعم الفواتير والدفع النقدي والفيزا</p></div>
+        <div class="feature-card"><div class="ficon">👥</div><h3>إدارة العملاء</h3><p>سجل العملاء ونقاط المكافآت وسجل المشتريات</p></div>
+        <div class="feature-card"><div class="ficon">📄</div><h3>الفواتير</h3><p>إنشاء وعرض وطباعة الفواتير مع إدارة المرتجعات</p></div>
+        <div class="feature-card"><div class="ficon">🚚</div><h3>الموردين</h3><p>إدارة الموردين والمشتريات والديون</p></div>
+        <div class="feature-card"><div class="ficon">💰</div><h3>الخزينة</h3><p>متابعة الإيرادات والمصروفات ورصيد الخزينة</p></div>
+        <div class="feature-card"><div class="ficon">📊</div><h3>التقارير</h3><p>تقارير مبيعات وأرباح مع رسوم بيانية تفاعلية</p></div>
+        <div class="feature-card"><div class="ficon">🏢</div><h3>الفروع</h3><p>إدارة فروع متعددة للصيدلية</p></div>
+        <div class="feature-card"><div class="ficon">🛡️</div><h3>الصلاحيات</h3><p>صلاحيات مختلفة للمدير والموظفين</p></div>
+        <div class="feature-card"><div class="ficon">🔔</div><h3>التنبيهات</h3><p>تنبيهات الأدوية منتهية الصلاحية والمخزون المنخفض</p></div>
+        <div class="feature-card"><div class="ficon">🖨️</div><h3>الطباعة</h3><p>طباعة الفواتير مباشرة على طابعة حرارية</p></div>
+        <div class="feature-card"><div class="ficon">🎁</div><h3>الخصومات</h3><p>قواعد خصم مرنة على الأدوية والفئات والكميات</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="download" id="download">
+    <div class="container">
+      <div class="section-header">
+        <h2>حمّل البرنامج الآن</h2>
+        <p>البرنامج متوفر لنظام ويندوز. حمّله واستمتع بإدارة صيدليتك بكل سهولة</p>
+      </div>
+      <div class="download-box">
+        <div class="d-icon">📦</div>
+        <h3>مثبت البرنامج</h3>
+        <p>ملف setup.exe سهل التثبيت - فقط شغّله واتبع التعليمات</p>
+        <a href="https://github.com/YoussefMohamed-Joo/pharmacy-system/releases/download/v1.0.0/Setup.1.0.0.exe" class="btn-primary btn-large">تحميل المثبت</a>
+        <small>تحميل مجاني - بدون تسجيل - تحديثات مستمرة</small>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; 2026</p>
+    <p class="credit">برمجة وتطوير م. يوسف محمد | 01033558125</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
